@@ -3,8 +3,10 @@ import Nav from './Nav'
 
 const Layout = props => (
     <div>
-        <Nav />
+        <Nav/>
+        <div>Default Header</div>
         {props.children}
+        <div>Default Footer</div>
     </div>
 )
 
